@@ -109,8 +109,7 @@ function ennemy_collision() {
         ennemy1.direction = ennemy1.direction * -1
     }
     if (y > HEIGHT) {
-        //i        player1.life -= 1;
-        f(player1.graphic.rotation.z < Math.PI / 2 && player1.graphic.rotation.z > Math.PI / 2 * -1)
+        //if (player1.graphic.rotation.z < Math.PI / 2 && player1.graphic.rotation.z > Math.PI / 2 * -1)
         ennemy1.direction = ennemy1.direction * -1
     }
 
